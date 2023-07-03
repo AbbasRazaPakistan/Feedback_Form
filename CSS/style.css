@@ -1,0 +1,19 @@
+body {
+  line-height: 30px;
+}
+input {
+  margin: 5px;
+  margin-left: 40px;
+}
+
+fieldset {
+  width: 450px;
+  margin-bottom: 20px;
+}
+label {
+  margin-left: 100px;
+}
+loginLabel.label,
+span {
+  margin-left: 60px;
+}

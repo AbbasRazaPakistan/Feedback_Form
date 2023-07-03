@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="shortcut icon" href="./favicon.ico?" type="image/x-icon" />
+    <!-- Abbas Raza (CCO-116677) -->
+  </head>
+  <body>
+    <form action="https://www.example.com/subscribe.php">
+      <fieldset>
+        <legend>Login Details</legend>
+        <label for="name" class="loginLabel"
+          >Name:
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="User Name"
+          /> </label
+        ><br />
+        <label for="email" class="loginLabel"
+          >Email:
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="abc@xyz.com"
+          /> </label
+        ><br />
+        <label for="password" class="loginLabel"
+          >Password:
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            placeholder="(6-10 Charachters)"
+            minlength="6"
+            maxlength="10"
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Your Feedback</legend>
+        <span>Please check all the emotions that apply to you:</span><br />
+        <label for="angry"
+          >Angry<input type="checkbox" name="emotion" id="angry" /></label
+        ><br />
+        <label for="sad"
+          >Sad<input type="checkbox" name="emotion" id="sad" /></label
+        ><br />
+        <label for="happy"
+          >Happy <input type="checkbox" name="emotion" id="happy" /></label
+        ><br />
+        <label for="ambivalent"
+          >Ambivalent
+          <input type="checkbox" name="emotion" id="ambivalent" /></label
+        ><br />
+        <span>How satisfied were you with our service?</span><br />
+        <label for="verySatisfied"
+          >Very Setisfied:<input
+            type="radio"
+            name="satisfaction"
+            id="verySatisfied" /></label
+        ><br />
+        <label for="justSatisfied"
+          >Just Satisfied
+          <input type="radio" name="satisfaction" id="justSatisfied" /></label
+        ><br />
+        <label for="notTooMuch"
+          >Not too much<input
+            type="radio"
+            id="notTooMuch"
+            name="satisfaction" /></label
+        ><br />
+        <label for="notSatisfied"
+          >Not Setisfied at all
+          <input type="radio" id="notSatisfied" name="satisfaction"
+        /></label>
+      </fieldset>
+    </form>
+  </body>
+</html>
